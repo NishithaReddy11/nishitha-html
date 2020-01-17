@@ -1,0 +1,88 @@
+<html>
+<head>
+Deloitte
+</head>
+<body>
+    <style>
+        Form *{
+                width:80%;
+                padding:10px;
+                border-top:0;
+                border-left:0;
+                border-right:0;
+                border-bottom:1px solid;
+        }
+        input:hover{
+            background-color:aquamarine;
+        }
+        form{
+            margin:5px;
+            font-size:large;
+        }
+        ul{
+            list-style-type:none;
+        }
+        a{
+            text-decoration:none;
+            font-size:large;
+        }
+        li{
+            margin-right:5px;
+            background-color:blanchedalmond;
+             width:100px;
+            display:inline;
+        }
+        li:hover{
+            background-color:red;
+        }
+        form{
+            position:absolute;
+        }
+        img{
+            display:inline;
+            opacity:0.5;
+        }
+        img.hover{
+            opacity:1.0;
+        }
+    </style>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="https://www.wikipedia.com">Wikipedia</a></li>
+                <li><a href="https://www.google.com">google</a></li>
+                <li><a href="https://www.github.com">github</a></li>
+                <li><a href="https://www.instagram.com">instagram</a></li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <img src="img1.jpg" width="300" height="200"><br>
+    </div>
+<Form>
+   <!-- <img src="img1.jpg" width="400px" height="200PX" ALT="Image not available"><br>-->
+    Enter userid:<input type="number" required placeholder="Enter your id"><br>
+    Enter email:<input type="email" id="temail" required placeholder="Enter your email"><br>
+    Enter Name:<input type="text" id="Tname"><br>
+    Enter Address:
+    <textarea id="Taddress"></textarea><br>
+    Select Gender:
+    <input type="radio" name:"Gender" value="male">Male<br>
+    <input type="radio" name:"Gender" value="female">Female<br>
+    Language(s) Known:<input type="checkbox" name="lan" value="English">English<br>
+    <input type="checkbox" name="lan" value="telugu">Telugu<br>
+    <input type="checkbox" name="lan" value="Hindi">Hindi<br>
+    Country:
+    <select>
+        <option>India
+        </option>
+        <option>USA</option>
+        <option>SriLanka</option>
+        <option>Korea</option>
+    </select><br>
+    Enter date of birth:<input type="date"><br>
+    <input type="submit" value="Enter Data"><br>
+    <input type="reset" value="Reset Data">
+</Form>
+</body>
+</html>
